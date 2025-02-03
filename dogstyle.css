@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+   }
+   .contain
+   {
+     display:flex;
+     justify-content: center;
+     flex-wrap:wrap;
+   
+   }
+ 
+.dog
+   {
+     background-color:burlywood ;
+     height: 320px;
+     width: 400px;
+     margin: 20px;
+     border-radius: 10px;
+   }
+ 
+.dog-image
+    {
+     margin-bottom: 15px;
+     height: 250px;
+     background-size: cover;
+     border-radius: 10px 10px 0 0;
+ 
+    }
+.dog-5
+    {
+        background-image:url('https://www.southernliving.com/thmb/c7sc94jF4q3DTQmlAZzywfJyA68=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1196355551-2000-003eb6d6824b4ec98113518cfa911b30.jpg');
+    }
+.dog-6   {
+     background-image: url('https://www.southernliving.com/thmb/0OA9Me5rn33nujvdH6LsSLR_o9Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1051365818-2000-2d0968ce62ee4ee8999245632d6f022d.jpg');
+   }
+.dog-7{
+    background-image: url('https://www.southernliving.com/thmb/wQkLhpcZziwc1km5fTHZochtyDM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-989617126-2000-b71a5028f05248fba92a9d4e7965399c.jpg');
+   }
+.dog-8
+{
+    background-image: url('https://www.southernliving.com/thmb/o7eOBV3Q1j1GUYdAlSrAkmnY4zM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-978711748-2000-4ee63f21dbfc42c0abc736f84862d961.jpg');
+}
+.dog-9
+{
+    background-image: url('https://www.southernliving.com/thmb/mF4LmyNA32KAxr2Xm0oSPvOfB8g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-650044139-2000-1671d5d378504f989210a2e22ae6a203.jpg');
+}
+.dog-10{
+    background-image: url('https://www.southernliving.com/thmb/H5BjcMzxwrHFPlqKWTurjST61Lc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-163524069-2000-32c2be9a594347de9ae2b39486f1944b.jpg');
+}
+.dog-11
+{
+    background-image: url('https://www.southernliving.com/thmb/DkIB4_DoFer2XoOMj7wwjdlqteo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cavalier-king-charles-spaniel-1185223858-8388cbe768ac417d81b8b16532ca1992.jpg');
+}
+.dog-12
+{
+    background-image: url('https://miro.medium.com/v2/resize:fit:1184/1*l9l3rZr3aP4uXHWN3iYr0Q.jpeg');
+}
+
+
+   .dog:hover
+   {
+     background-color:rgb(0, 0, 0);
+     color:rgb(255, 255, 255);
+     cursor:pointer;
+     transform: scale(1.03);
+     transition: all 1s ease;
+   }
+
+
+
+

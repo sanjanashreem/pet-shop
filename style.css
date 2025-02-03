@@ -1,0 +1,87 @@
+header{
+background-image:url('group.jpg');
+background-size: cover;
+height: 100vh;
+background-position: center;
+display: flex;
+align-items: top;
+justify-content: center;
+
+}
+.header-content{
+    margin-top: 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3vmin;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line
+{
+    width:150px;
+    height: 4px;
+    background-color: whitesmoke;
+    margin: 10px auto;
+}
+/* events */
+section { 
+    
+}   
+.container
+   {
+     display:flex;
+     justify-content: center;
+     flex-wrap:wrap;
+   
+   }
+ a{
+    background-attachment: none;
+ }
+.card
+   {
+     background-color:burlywood ;
+     height: 320px;
+     width: 400px;
+     margin: 20px;
+     border-radius: 10px;
+   }
+ 
+.card-image
+    {
+     margin-bottom: 15px;
+     height: 250px;
+     background-size: cover;
+     border-radius: 10px 10px 0 0;
+ 
+    }
+.card-h2{
+    color:white;
+}
+    .pet-1
+    {
+        background-image:url('do.jpg');
+      }
+   .pet-2
+   {
+     background-image: url('ca.jpg');
+   }
+   .card:hover
+   {
+     background-color:rgb(0, 0, 0);
+     color:rgb(255, 255, 255);
+     cursor:pointer;
+     transform: scale(1.03);
+     transition: all 1s ease;
+   }
+   .next
+   {
+    background-color:burlywood;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+   }
+   .next h1{
+    margin: top 10px;
+   }
+ 
+  
